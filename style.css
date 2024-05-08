@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Start NavBar Section */
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    height: 60px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+    font-family: monospace;
+    letter-spacing: 1px;
+     
+}
+
+nav a:nth-of-type(1){
+    letter-spacing: 2px;
+}
+
+/* End  NavBar Section */
+
+/* Start Header Section */
+
+.header{
+    height: 590px;
+    background-image: linear-gradient(to right , #0e0d0d59 , #16165f21), url(	https://img.youm7.com/large/201805280324362436.jpg);
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-header{
+    display: flex;
+}
+
+.header h2{
+    font-size: 30px;
+    color: #fff;
+    font-family: monospace;
+    letter-spacing: 3px;
+    word-spacing: -10px;
+    margin-bottom: 10px;
+}
+
+.header p{
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.header button{
+    font-family: monospace;
+    padding: 8px 20px;
+    margin-right: 20px;
+    border: none;
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: #6f0f41;
+    color: #fff;
+    
+}
+
+.header button:nth-of-type(2){
+    background-color: #2c9279;
+}
+
+/* End Header Section */
+
+
+/* Start Childern Section */
+
+
+.Childern {
+    margin-top: 30px;
+}
+
+.Childern h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    word-spacing: -10px;
+   letter-spacing: 3px;
+}
+
+.Childern hr{
+    width: 200px;
+    margin: auto;
+    height: 2px;
+    background-color: #e61d1d;
+    margin-bottom: 45px;
+    margin-top: 13px;
+}
+
+.childern-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.childern-container img{
+    width: 44%;
+    margin-bottom: 50px;
+}
+
+.childern-container h2{
+    width: 40%;
+    line-height: 1.5;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+/* End Childern Section */
+
+
+/* Start About Section */
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cccccc21;
+    padding-top: 30px;
+}
+.about-container{
+    border: 1px solid #cccccc73;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    width: 40%;
+}
+.about-container img{
+    width: 455px;
+    height: 303px;
+    margin-bottom: 30px;
+    display: block;
+    margin: auto;
+}
+
+.about-container h2{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    word-spacing: -10px;
+}
+
+/* End About Ssectin */
+
+/* Start Contact Section */
+
+.contact{
+    background-image:url( https://cofee.cc/wp-content/uploads/2019/10/2280-2.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact input , .contact textarea , .email input{
+    width: 80%;
+    padding: 12px 10px;
+    font-size: 18px;
+    font-family: monospace;
+    text-indent: 10px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+.contact h2 , .email h2{
+    font-size: 30px;
+    color: #fff;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.contact button , .email button{
+    padding: 10px 30px;
+    background-color: #212121;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+/* End Contact Section */
+
+/* Start Email Section */
+
+.email{
+    background-image: url(https://lyricss.cc/wp-content/uploads/2018/07/4914-11.jpg);
+
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+
+}
+
+/* End Email Section */
